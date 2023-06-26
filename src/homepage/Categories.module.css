@@ -1,0 +1,52 @@
+.all {
+  width: 1280px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.all p {
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 16px auto -16px auto;
+  opacity: 0.3;
+  width: fit-content;
+  position: relative;
+}
+
+.all h3 {
+  font-style: italic;
+  font-weight: 600;
+  margin: 16px auto;
+  opacity: 0.8;
+  width: fit-content;
+  position: relative;
+}
+
+.all img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.up {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin: 0 0 25px 0;
+}
+
+.up img {
+  width: 627.5px;
+}
+
+.down {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  margin: 0 0 25px 0;
+}
+
+.down img {
+  width: 410px;
+}

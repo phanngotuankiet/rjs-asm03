@@ -1,0 +1,65 @@
+.all {
+  margin: 50px auto 50px auto;
+  width: 1280px;
+}
+
+.banner {
+  background-color: #f8f9fa;
+  display: flex;
+  height: 230px;
+  margin: 100px auto 40px auto;
+}
+
+.banner h1 {
+  margin: auto 0 auto 60px;
+  font-style: italic;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.banner h5 {
+  margin: auto 0 auto 920px;
+  font-style: italic;
+  letter-spacing: 1.3px;
+
+  color: #c6c2c9;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.billingDetails {
+  display: flex;
+  justify-content: space-between;
+}
+
+.billingDetails h2 {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 23px;
+
+  letter-spacing: 1.3px;
+}
+
+.billingDetails form p {
+  color: #898b8b;
+  font-style: italic;
+  letter-spacing: 1.3px;
+}
+
+.billingDetails form input {
+  height: 36px;
+  border: solid #dadada 2px;
+  padding: 0 0 0 15px;
+  width: 800px;
+}
+
+.billingDetails button {
+  background-color: #383838;
+  border: none;
+  color: #ffffff;
+  padding: 8px 24px;
+  font-style: italic;
+  font-size: 16px;
+  font-weight: 100;
+  margin: 15px 0 15px 0;
+}

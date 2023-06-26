@@ -1,0 +1,64 @@
+.upper {
+  display: flex;
+}
+
+table {
+  width: 800px;
+  border-collapse: collapse;
+  margin: 0 30px 0 0;
+}
+
+.upper th,
+.upper td {
+  width: 100px;
+  margin: auto;
+  font-style: italic;
+}
+
+.upper tr:first-child {
+  background-color: #f8f9fa;
+}
+
+.upper td p {
+  margin: auto;
+  font-style: italic;
+  text-align: center;
+}
+
+.upper td img {
+  right: -50%;
+  transform: translateX(50%);
+}
+
+.upper td h4 {
+  width: 200px;
+  font-style: italic;
+  text-align: center;
+  margin: auto;
+}
+
+.removeIcon {
+  margin: 0 -30px 0 30px;
+}
+
+.shoppingCheckout {
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  height: 64px;
+  background-color: #f8f9fa;
+
+  margin: 25px 0;
+}
+
+.shoppingCheckout p {
+  font-style: italic;
+  margin: auto 23px;
+  color: #000000;
+}
+
+.shoppingCheckout p:last-child {
+  padding: 5px 11px 7px 11px;
+  border: solid #000000 2px;
+  color: #000000;
+}

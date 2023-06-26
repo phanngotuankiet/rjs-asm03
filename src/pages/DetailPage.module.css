@@ -1,0 +1,136 @@
+.all {
+  margin: 70px auto 50px auto;
+  width: 1200px;
+}
+
+.upper {
+  display: flex;
+}
+
+.images {
+}
+
+.rightInformation {
+  width: 440px;
+}
+
+.rightInformation h1 {
+  font-weight: 500;
+  font-style: italic;
+}
+
+.rightInformation h3 {
+  font-weight: 350;
+  font-style: italic;
+  color: #8b8b8b;
+}
+
+.rightInformation .upperDesc {
+  font-style: italic;
+  color: #8b8b8b;
+  font-size: 14px;
+}
+
+.rightInformation .categoryLabel {
+  font-style: italic;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.rightInformation .category {
+  font-style: italic;
+  color: #8b8b8b;
+}
+
+.quantityBtn {
+  display: flex;
+  justify-content: space-between;
+  border: solid #b9b9b9 1px;
+  padding: 0 10px;
+  width: 148px;
+  height: 26px;
+}
+
+.inDeValue {
+  display: flex;
+}
+
+.quantityBtn p {
+  font-style: italic;
+  color: #8b8b8b;
+  margin-top: 3px;
+  font-size: 13px;
+}
+
+.quantityBtn button {
+  background-color: #fff;
+  padding-bottom: -2px;
+  border: none;
+  margin-top: 2px;
+}
+
+.quantityBtn input {
+  width: 10px;
+  border: none;
+  margin-top: 2px;
+  margin-right: -2px;
+  padding: 0 3px;
+}
+
+.allQuantity {
+  display: flex;
+  margin: 22px 0;
+}
+
+.rightInformation .addCartBtn {
+  height: 27px;
+  padding: 0 20px;
+  border: none;
+  background-color: #353535;
+  color: #d3d3d3;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.descLabel {
+  height: 19px;
+  width: 75px;
+  padding: 12px 20px;
+  border: none;
+  background-color: #353535;
+  color: #d3d3d3;
+  font-size: 12px;
+  font-style: italic;
+}
+
+.shortDescBottom span {
+  font-style: italic;
+}
+
+.longDesc {
+  font-style: italic;
+  font-size: 14px;
+  color: #8b8b8b;
+  width: 500px;
+}
+
+.shortDescBottom h3 {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.relatedProductName {
+  font-weight: 500;
+  width: 220px;
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
+}
+
+.relatedProductPrice {
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
+  margin-top: -6px;
+  color: #8b8b8b;
+}

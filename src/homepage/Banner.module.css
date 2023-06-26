@@ -1,0 +1,37 @@
+.all {
+  margin: auto;
+  width: 1280px;
+  position: relative;
+}
+
+.banner1 {
+  width: 1280px;
+}
+
+.all .inspiration {
+  position: absolute;
+  margin: -300px -64px 300px 64px;
+  font-style: italic;
+  opacity: 0.5;
+}
+
+.all h2 {
+  position: absolute;
+  width: 350px;
+  margin: -270px -64px 270px 64px;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+
+.all .btn {
+  margin: -180px -64px 180px 64px;
+  padding: 6px 24px 8px 24px;
+  font-style: italic;
+  font-weight: 100;
+  font-size: 18px;
+  position: absolute;
+  color: #fff;
+  background-color: #383838;
+}

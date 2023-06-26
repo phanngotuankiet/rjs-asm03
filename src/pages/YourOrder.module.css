@@ -1,0 +1,39 @@
+.all {
+  background-color: #f8f9fa;
+  height: fit-content;
+  width: 90%;
+  margin-left: 30px;
+  padding: 25px 45px;
+}
+
+.all h2 {
+  font-weight: 400;
+}
+
+.productName {
+  font-size: 15px;
+  width: 190px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.productPrice {
+  font-size: 14px;
+  font-style: italic;
+  color: #abaeb6;
+}
+
+.yourOrder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+}
+
+.total span:first-child {
+  font-weight: 500;
+}

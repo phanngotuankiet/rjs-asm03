@@ -1,0 +1,8 @@
+.all {
+  background-image: url("../img/banner1.jpg");
+  background-size: 1700px 600px;
+  background-position: left 0px top;
+  height: 600px;
+  padding-top: 90px;
+  padding-bottom: 50px;
+}

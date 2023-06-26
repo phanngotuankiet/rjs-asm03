@@ -1,0 +1,74 @@
+.shopPage {
+  display: flex;
+}
+
+.all {
+  width: 248px;
+}
+
+.all h4,
+.all h3,
+.all a {
+  font-style: italic;
+}
+
+.all h4 {
+  padding: 7px 20px;
+}
+
+.appleSquare {
+  background-color: #000;
+  color: #fff;
+  width: 215px;
+}
+
+.productLine {
+  margin-top: -18px;
+  width: 215px;
+}
+
+.appleSquare h4 {
+  font-weight: 400;
+}
+
+.square {
+  margin-top: -20px;
+  background-color: #f3f3f3;
+  color: #000;
+  width: 215px;
+}
+
+.square h4 {
+  font-weight: 500;
+}
+
+.productLine a {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+
+  padding: 7px 20px;
+  font-size: 14px;
+  color: #7d7d7d;
+}
+
+.productList {
+  width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.upperOfRightSideSearchFields {
+  margin-bottom: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.upperOfRightSideSearchFields input {
+  width: 205px;
+  height: 35px;
+  padding-left: 20px;
+
+  border: solid 2px #cdcccc;
+  border-radius: 3px;
+}

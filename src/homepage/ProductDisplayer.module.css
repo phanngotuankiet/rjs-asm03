@@ -1,0 +1,27 @@
+.all {
+  width: 270px;
+}
+
+.all p {
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+}
+
+.all .productName {
+  font-weight: 600;
+}
+
+.all .productPrice {
+  font-size: 14px;
+  color: #919191;
+}
+
+.all img:hover {
+  opacity: 0.8;
+}
+
+.all img,
+.all p {
+  cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.all {
+  background-color: #f8f9fa;
+  width: 300px;
+  height: fit-content;
+  padding: 20px 40px;
+}
+
+.cartTotalContent h4 {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+}
+
+.cartTotalContent h4 span:first-child {
+  font-weight: 500;
+}
+
+.cartTotalContent h4 span:last-child {
+  font-weight: 300;
+}
+
+.cartTotalContent h4 p {
+  margin: -1px 0 1px 0;
+  font-weight: 400;
+}
+
+.all input {
+  width: 95%;
+  height: 38px;
+  padding-left: 12px;
+  border: solid 1px #d5dadf;
+}
+
+.all button {
+  border: none;
+  background-color: #383838;
+  width: 100%;
+  color: #ffffff;
+  height: 38px;
+}
