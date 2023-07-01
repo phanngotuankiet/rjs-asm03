@@ -139,6 +139,7 @@ export default function CategoriesWidget() {
               price={inside.price}
             />
           ))}
+          OK
         </div>
       </div>
     </div>
