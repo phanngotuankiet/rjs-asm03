@@ -11,7 +11,7 @@ import SignUpPage from "./pages/SignUpPage";
 
 function App() {
   return (
-    <BrowserRouter basename="/rjs-asm03">
+    <BrowserRouter>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
