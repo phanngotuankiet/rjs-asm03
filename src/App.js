@@ -6,12 +6,12 @@ import Cart from "./pages/CartPage";
 import CheckOut from "./pages/CheckOutPage";
 import Login from "./pages/LoginPage";
 import Register from "./pages/RegisterPage";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import SignUpPage from "./pages/SignUpPage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route path="/shop" element={<Shop />} />
@@ -22,7 +22,7 @@ function App() {
         <Route path="/signup" element={<SignUpPage />} />
         <Route path="/register" element={<Register />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
